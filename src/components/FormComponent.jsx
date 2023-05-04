@@ -15,7 +15,6 @@ const FormComponent = ({ getUserDetails, userDetails, addUser }) => {
           type="text"
           onChange={(e) => getUserDetails("name", e.target.value)}
           value={userDetails.name}
-          ref
         />
       </FormGroup>
       <FormGroup>
